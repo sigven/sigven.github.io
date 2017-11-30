@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <p>I am a research scientist working in [Eivind Hovig's group](http://radium.no/hovig) at the [Institute for Cancer Research](http://radium.no) in Oslo, Norway. Most of my activities involve cancer data science, i.e. analysis of data from high-throughput molecular profiling of tumor samples. During the last years, I have been part of the [Norwegian Cancer Genomics Consortium](http://cancergenomics.no), a national effort on clinical cancer genomics. I am formally trained in computer sience from [NTNU](http://www.ntnu.no)/[University of Minnesota](http://www.umn.edu), and received my [PhD in computational biology](/thesis/PhD_Thesis_SigveNakken.pdf) from the [Centre for Molecular Biology and Neuroscience](http://www.cmbn.no) at the [University of Oslo](http://www.uio.no).</p>
 
-<p>Ongoing research activities:
+<p>Main ongoing research activities:
 
    * _Cancer genome interpretation_
 
@@ -22,10 +22,6 @@ knitr::opts_chunk$set(echo = TRUE)
   * _Cancer predisposition_
 
     Application of high-throughput seqencing to idenify variants associated with risk of cancer development. Enabling personalized (gene, gender, age) estimations of cancer risk in Lynch Syndrome patients (see website for the [Prospective Lynch Syndrome Database](http://lscarisk.org)). Collaborative work with [Dr. Pål Møller](http://www.ous-research.no/moller/) and [Dr. Mev Dominguez-Valentin](http://www.ous-research.no/home/hovig/Staff/17008).
-
-  * _Mutational patterns in the human genome_
-
-    I have a long-standing interest in the application of computational approaches to identify patterns in the distribution of genomic aberrations (both along the linear and three-dimensional genome), and specifically characterization and understanding of differences and similarities between the germline and the soma. Collaborative work with [Dr. Pubudu Samarakoon](http://www.ous-research.no/hovig/).
   
 
 I supervise MSc students at the [Department of Informatics, University of Oslo](https://www.mn.uio.no/ifi/), which have included projects on: 
