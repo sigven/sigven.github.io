@@ -1,0 +1,36 @@
+---
+title: "About"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<p>I am a research scientist working in [Eivind Hovig's group](http://radium.no/hovig) at the [Institute for Cancer Research](http://radium.no) in Oslo, Norway. Most of my activities involve cancer data science, i.e. analysis of data from high-throughput molecular profiling of tumor samples. During the last years, I have been part of the [Norwegian Cancer Genomics Consortium](http://cancergenomics.no), a national effort on clinical cancer genomics. I am formally trained in computer sience from [NTNU](http://www.ntnu.no)/[University of Minnesota](http://www.umn.edu), and received my [PhD in computational biology](/thesis/PhD_Thesis_SigveNakken.pdf) from the [Centre for Molecular Biology and Neuroscience](http://www.cmbn.no) at the [University of Oslo](http://www.uio.no).</p>
+
+<p>Ongoing research activities:
+
+   * _Cancer genome interpretation_
+
+    Development of computational tools, prediction models, and resources that can translate cancer genomes into clinical decision support. I have initiated a project, [Personal Cancer Genome Reporter (PCGR)](https://github.com/sigven/pcgr), which is a platform-independent software workflow that generates a genomics-based knowledge report intended for precision oncology. 
+
+  * _Computational modeling of drug response in cancer_
+
+    Assessment of how systems biology knowledge and read-outs from omics technologies can be used in the prediction of _invitro_/clinical drug response. Transformation of this knowledge into software and tools that serve to prioritize treatment strategies. Based on our participation in the [DREAM challenge on Drug Combination Prediction](https://www.synapse.org/#!Synapse:syn4231880/wiki/235645), we have a collaboration with statisticians at [BigInsight, University of Oslo](http://biginsight.no) on the topic.  
+   
+  * _Cancer predisposition_
+
+    Application of high-throughput seqencing to idenify variants associated with risk of cancer development. Enabling personalized (gene, gender, age) estimations of cancer risk in Lynch Syndrome patients (see website for the [Prospective Lynch Syndrome Database](http://lscarisk.org)). Collaborative work with [Dr. Pål Møller](http://www.ous-research.no/moller/) and [Dr. Mev Dominguez-Valentin](http://www.ous-research.no/home/hovig/Staff/17008).
+
+  * _Mutational patterns in the human genome_
+
+    I have a long-standing interest in the application of computational approaches to identify patterns in the distribution of genomic aberrations (both along the linear and three-dimensional genome), and specifically characterization and understanding of differences and similarities between the germline and the soma. Collaborative work with [Dr. Pubudu Samarakoon](http://www.ous-research.no/hovig/).
+  
+
+I supervise MSc students at the [Department of Informatics, University of Oslo](https://www.mn.uio.no/ifi/), which have included projects on: 
+
+* [text mining of clinical trial data](https://www.duo.uio.no/handle/10852/38306)
+* [evaluation of methods for cancer driver gene prediction](https://www.duo.uio.no/handle/10852/41622)
+* [cluster analysis of data from genome-wide association studies](https://www.duo.uio.no/handle/10852/53017)
+* [comparison of somatic and germline mutational spectra](https://www.duo.uio.no/handle/10852/57756)

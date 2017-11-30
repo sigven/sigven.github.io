@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sigve nakken</title>
+    <link>/index.xml</link>
+    <description>Recent content on sigve nakken</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CodeRag</title>
+      <link>/coderag/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>/coderag/</guid>
+      <description>&lt;p&gt;Notes: This article originally appeared in &lt;a href=&#34;http://www.coderag.com/-note-from-the-editor/&#34;&gt;CodeRag&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Code/Rag has always been more than just another online tech blog. We strive to be part of the tech community—serving an essential, fundamental look at what’s going on in the valley. It’s why our tagline is “Know Your Code.” We think a tech news publication should know the basics. Be the source. Get down to brass tacks. We can do that because we’re part of the very ecosystem we’re reporting on. And like any other company in the Silicon Valley community, Code/Rag is an ever-evolving entity.&lt;/p&gt;
+
+&lt;p&gt;Part of Code/Rag’s evolution includes our new investor: Bachmanity Capital. Bachmanity, as of this writing, owns a 50 percent stake in Code/Rag. I want to assure our readers this will in no way affect the quality or integrity of our journalism (it takes more than a couple dollars to shut me up). It simply means we have more funds to chase down the story, more resources to analyze trends and more assurances that when you read Code/Rag, you’ll know your code.&lt;/p&gt;
+
+&lt;p&gt;C.J. Cantwell
+Editor-in-Chief&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>&lt;p&gt;
+I am a research scientist working in &lt;a href=&#34;http://radium.no/hovig&#34;&gt;Eivind Hovig’s group&lt;/a&gt; at the &lt;a href=&#34;http://radium.no&#34;&gt;Institute for Cancer Research&lt;/a&gt; in Oslo, Norway. Most of my activities involve cancer data science, i.e. analysis of data from high-throughput molecular profiling of tumor samples. During the last years, I have been part of the &lt;a href=&#34;http://cancergenomics.no&#34;&gt;Norwegian Cancer Genomics Consortium&lt;/a&gt;, a national effort on clinical cancer genomics. I am formally trained in computer sience from &lt;a href=&#34;http://www.ntnu.no&#34;&gt;NTNU&lt;/a&gt;/&lt;a href=&#34;http://www.umn.edu&#34;&gt;University of Minnesota&lt;/a&gt;, and received my &lt;a href=&#34;/thesis/PhD_Thesis_SigveNakken.pdf&#34;&gt;PhD in computational biology&lt;/a&gt; from the &lt;a href=&#34;http://www.cmbn.no&#34;&gt;Centre for Molecular Biology and Neuroscience&lt;/a&gt; at the &lt;a href=&#34;http://www.uio.no&#34;&gt;University of Oslo&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;p&gt;Ongoing research activities:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Cancer genome interpretation&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Development of computational tools, prediction models, and resources that can translate cancer genomes into clinical decision support. I have initiated a project, &lt;a href=&#34;https://github.com/sigven/pcgr&#34;&gt;Personal Cancer Genome Reporter (PCGR)&lt;/a&gt;, which is a platform-independent software workflow that generates a genomics-based knowledge report intended for precision oncology.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Computational modeling of drug response in cancer&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Assessment of how systems biology knowledge and read-outs from omics technologies can be used in the prediction of &lt;em&gt;invitro&lt;/em&gt;/clinical drug response. Transformation of this knowledge into software and tools that serve to prioritize treatment strategies. Based on our participation in the &lt;a href=&#34;https://www.synapse.org/#!Synapse:syn4231880/wiki/235645&#34;&gt;DREAM challenge on Drug Combination Prediction&lt;/a&gt;, we have a collaboration with statisticians at &lt;a href=&#34;http://biginsight.no&#34;&gt;BigInsight, University of Oslo&lt;/a&gt; on the topic.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Cancer predisposition&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Application of high-throughput seqencing to idenify variants associated with risk of cancer development. Enabling personalized (gene, gender, age) estimations of cancer risk in Lynch Syndrome patients (see website for the &lt;a href=&#34;http://lscarisk.org&#34;&gt;Prospective Lynch Syndrome Database&lt;/a&gt;). Collaborative work with &lt;a href=&#34;http://www.ous-research.no/moller/&#34;&gt;Dr. Pål Møller&lt;/a&gt; and &lt;a href=&#34;http://www.ous-research.no/home/hovig/Staff/17008&#34;&gt;Dr. Mev Dominguez-Valentin&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Mutational patterns in the human genome&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I have a long-standing interest in the application of computational approaches to identify patterns in the distribution of genomic aberrations (both along the linear and three-dimensional genome), and specifically characterization and understanding of differences and similarities between the germline and the soma. Collaborative work with &lt;a href=&#34;http://www.ous-research.no/hovig/&#34;&gt;Dr. Pubudu Samarakoon&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I supervise MSc students at the &lt;a href=&#34;https://www.mn.uio.no/ifi/&#34;&gt;Department of Informatics, University of Oslo&lt;/a&gt;, which have included projects on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.duo.uio.no/handle/10852/38306&#34;&gt;text mining of clinical trial data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.duo.uio.no/handle/10852/41622&#34;&gt;evaluation of methods for cancer driver gene prediction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.duo.uio.no/handle/10852/53017&#34;&gt;cluster analysis of data from genome-wide association studies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.duo.uio.no/handle/10852/57756&#34;&gt;comparison of somatic and germline mutational spectra&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
