@@ -13,15 +13,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
    * _Cancer genome interpretation_
 
-    Development of computational tools, prediction models, and resources that can translate cancer genomes into clinical decision support. I have initiated a project, [Personal Cancer Genome Reporter (PCGR)](https://github.com/sigven/pcgr), which is a platform-independent software workflow that generates a genomics-based knowledge report intended for precision oncology. 
+    <!--Development of computational tools, prediction models, and resources that can translate cancer genomes into clinical decision support. I have initiated a project, [Personal Cancer Genome Reporter (PCGR)](https://github.com/sigven/pcgr), which is a platform-independent software workflow that generates a genomics-based knowledge report intended for precision oncology. -->
 
   * _Computational modeling of drug response in cancer_
 
-    Assessment of how systems biology knowledge and read-outs from omics technologies can be used in the prediction of _invitro_/clinical drug response. Transformation of this knowledge into software and tools that serve to prioritize treatment strategies. Based on our participation in the [DREAM challenge on Drug Combination Prediction](https://www.synapse.org/#!Synapse:syn4231880/wiki/235645), we have a collaboration with statisticians at [BigInsight, University of Oslo](http://biginsight.no) on the topic.  
+    <!--Assessment of how systems biology knowledge and read-outs from omics technologies can be used in the prediction of _invitro_/clinical drug response. Transformation of this knowledge into software and tools that serve to prioritize treatment strategies. Based on our participation in the [DREAM challenge on Drug Combination Prediction](https://www.synapse.org/#!Synapse:syn4231880/wiki/235645), we have a collaboration with statisticians at [BigInsight, University of Oslo](http://biginsight.no) on the topic.  -->
    
   * _Cancer predisposition_
 
-    Application of high-throughput seqencing to idenify variants associated with risk of cancer development. Enabling personalized (gene, gender, age) estimations of cancer risk in Lynch Syndrome patients (see website for the [Prospective Lynch Syndrome Database](http://lscarisk.org)). Collaborative work with [Dr. Pål Møller](http://www.ous-research.no/moller/) and [Dr. Mev Dominguez-Valentin](http://www.ous-research.no/home/hovig/Staff/17008).
+    <!--Application of high-throughput seqencing to idenify variants associated with risk of cancer development. Enabling personalized (gene, gender, age) estimations of cancer risk in Lynch Syndrome patients (see website for the [Prospective Lynch Syndrome Database](http://lscarisk.org)). Collaborative work with [Dr. Pål Møller](http://www.ous-research.no/moller/) and [Dr. Mev Dominguez-Valentin](http://www.ous-research.no/home/hovig/Staff/17008).-->
   
 
 I supervise MSc students at the [Department of Informatics, University of Oslo](https://www.mn.uio.no/ifi/), which have included projects on: 
