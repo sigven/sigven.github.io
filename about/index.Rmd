@@ -7,7 +7,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-<p>I am a research scientist working in [Eivind Hovig's group](http://radium.no/hovig) at the [Institute for Cancer Research](http://radium.no) in Oslo, Norway. Most of my activities involve cancer data science, i.e. analysis of data from high-throughput molecular profiling of tumor samples. During the last years, I have been part of the [Norwegian Cancer Genomics Consortium](http://cancergenomics.no), a national effort on clinical cancer genomics. I am formally trained in computer sience from [NTNU](http://www.ntnu.no)/[University of Minnesota](http://www.umn.edu), and received my [PhD in computational biology](/thesis/PhD_Thesis_SigveNakken.pdf) from the [Centre for Molecular Biology and Neuroscience](http://www.cmbn.no) at the [University of Oslo](http://www.uio.no).</p>
+<p>I am a research scientist working in [Eivind Hovig's group](http://radium.no/hovig) at the [Institute for Cancer Research](http://radium.no) in Oslo, Norway. Most of my activities involve cancer data science, i.e. analysis of data from high-throughput molecular profiling of tumor samples. During the last years, I have been part of the [Norwegian Cancer Genomics Consortium](http://cancergenomics.no), a national effort on clinical cancer genomics. I am formally trained in computer science from [NTNU](http://www.ntnu.no)/[University of Minnesota](http://www.umn.edu), and received my [PhD in computational biology](/thesis/PhD_Thesis_SigveNakken.pdf) from the [Centre for Molecular Biology and Neuroscience](http://www.cmbn.no) at the [University of Oslo](http://www.uio.no).</p>
 
 <p>Main ongoing research activities:
 
