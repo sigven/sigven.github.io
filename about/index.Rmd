@@ -5,6 +5,16 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+library(PubMedWordcloud)
+author <- "nakken s"
+pmid <- getPMIDs(author = author, dFrom = 2007, dTo = 2018, n = 200)
+abstracts <- getAbstracts(pmid)
+words <- cleanAbstracts(abstracts)
+
+words <- dplyr::filter(words, word != 'developed' & word != 'high' & word != 'patient' & word != 'associated' & word != 'identified' & word != 'found' & word != 'performed' & word != 'potential' & word != 'including' & word != 'results' & word != 'developed' & word != 'available' & word != 'compared' & word != 'can' & word != 'may' & word != 'study' & word != 'associated' & word != 'one' & word != 'two' & word != 'first' & word != 'however' & word != 'used' & word != 'analyzed' & word != 'patients' & word != 'years' & word != 'present' & word != 'subsequent' & word != 'age' & word != 'whether' & word != 'use')
+words400 <- words[1:400, ]
+
 ```
 
 <p>I am a research scientist working in [Eivind Hovig's group](http://radium.no/hovig) at the [Institute for Cancer Research](http://radium.no) in Oslo, Norway. Most of my activities involve cancer data science, i.e. analysis of data from high-throughput molecular profiling of tumor samples. During the last years, I have been part of the [Norwegian Cancer Genomics Consortium](http://cancergenomics.no), a national effort on clinical cancer genomics. I am currently affiliated with the [Centre for Cancer Cell Reprogramming (CanCell)](http://www.med.uio.no/cancell/english/). My background is in computer science from [NTNU](http://www.ntnu.no)/[University of Minnesota](http://www.umn.edu), and I received my [PhD in computational biology](/thesis/PhD_Thesis_SigveNakken.pdf) from the [Centre for Molecular Biology and Neuroscience](http://www.cmbn.no) at the [University of Oslo](http://www.uio.no).</p>
@@ -24,3 +34,11 @@ I supervise MSc students at the [Department of Informatics, University of Oslo](
 * [evaluation of methods for cancer driver gene prediction](https://www.duo.uio.no/handle/10852/41622)
 * [cluster analysis of data from genome-wide association studies](https://www.duo.uio.no/handle/10852/53017)
 * [comparison of somatic and germline mutational spectra](https://www.duo.uio.no/handle/10852/57756)
+
+<br>
+<p>
+A wordcloud of papers I have co-authored:
+</p>
+```{r publication_word_cloud, echo = F}
+plotWordCloud(words400[], rot.per = 0, scale = c(5,0.3))
+```
