@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sigve nakken</title>
-    <link>/index.xml</link>
+    <link>/</link>
     <description>Recent content on sigve nakken</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>CodeRag</title>
@@ -15,15 +17,8 @@
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
       <guid>/coderag/</guid>
-      <description>&lt;p&gt;Notes: This article originally appeared in &lt;a href=&#34;http://www.coderag.com/-note-from-the-editor/&#34;&gt;CodeRag&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Code/Rag has always been more than just another online tech blog. We strive to be part of the tech community—serving an essential, fundamental look at what’s going on in the valley. It’s why our tagline is “Know Your Code.” We think a tech news publication should know the basics. Be the source. Get down to brass tacks. We can do that because we’re part of the very ecosystem we’re reporting on. And like any other company in the Silicon Valley community, Code/Rag is an ever-evolving entity.&lt;/p&gt;
-
-&lt;p&gt;Part of Code/Rag’s evolution includes our new investor: Bachmanity Capital. Bachmanity, as of this writing, owns a 50 percent stake in Code/Rag. I want to assure our readers this will in no way affect the quality or integrity of our journalism (it takes more than a couple dollars to shut me up). It simply means we have more funds to chase down the story, more resources to analyze trends and more assurances that when you read Code/Rag, you’ll know your code.&lt;/p&gt;
-
-&lt;p&gt;C.J. Cantwell
-Editor-in-Chief&lt;/p&gt;
-</description>
+      <description>Notes: This article originally appeared in CodeRag.
+Code/Rag has always been more than just another online tech blog. We strive to be part of the tech community—serving an essential, fundamental look at what’s going on in the valley. It’s why our tagline is “Know Your Code.” We think a tech news publication should know the basics. Be the source. Get down to brass tacks. We can do that because we’re part of the very ecosystem we’re reporting on.</description>
     </item>
     
     <item>
@@ -32,24 +27,7 @@ Editor-in-Chief&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>&lt;p&gt;
-I am a research scientist working in &lt;a href=&#34;http://radium.no/hovig&#34;&gt;Eivind Hovig’s group&lt;/a&gt; at the &lt;a href=&#34;http://radium.no&#34;&gt;Institute for Cancer Research&lt;/a&gt; in Oslo, Norway. Most of my activities involve cancer data science, i.e. analysis of data from high-throughput molecular profiling of tumor samples. During the last years, I have been part of the &lt;a href=&#34;http://cancergenomics.no&#34;&gt;Norwegian Cancer Genomics Consortium&lt;/a&gt;, a national effort on clinical cancer genomics. I am currently affiliated with the &lt;a href=&#34;http://www.med.uio.no/cancell/english/&#34;&gt;Centre for Cancer Cell Reprogramming (CanCell)&lt;/a&gt;. My background is in computer science from &lt;a href=&#34;http://www.ntnu.no&#34;&gt;NTNU&lt;/a&gt;/&lt;a href=&#34;http://www.umn.edu&#34;&gt;University of Minnesota&lt;/a&gt;, and I received my &lt;a href=&#34;/thesis/PhD_Thesis_SigveNakken.pdf&#34;&gt;PhD in computational biology&lt;/a&gt; from the &lt;a href=&#34;http://www.cmbn.no&#34;&gt;Centre for Molecular Biology and Neuroscience&lt;/a&gt; at the &lt;a href=&#34;http://www.uio.no&#34;&gt;University of Oslo&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-&lt;p&gt;Main ongoing research activities:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Cancer genome interpretation&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Computational modeling of drug response in cancer&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Cancer predisposition&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I supervise MSc students at the &lt;a href=&#34;https://www.mn.uio.no/ifi/&#34;&gt;Department of Informatics, University of Oslo&lt;/a&gt;, which have included projects on:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.duo.uio.no/handle/10852/38306&#34;&gt;text mining of clinical trial data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.duo.uio.no/handle/10852/41622&#34;&gt;evaluation of methods for cancer driver gene prediction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.duo.uio.no/handle/10852/53017&#34;&gt;cluster analysis of data from genome-wide association studies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.duo.uio.no/handle/10852/57756&#34;&gt;comparison of somatic and germline mutational spectra&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>I am a research scientist working in Eivind Hovig’s group at the Institute for Cancer Research in Oslo, Norway. Most of my activities involve cancer data science, i.e. analysis of data from high-throughput molecular profiling of tumor samples. During the last years, I have been part of the Norwegian Cancer Genomics Consortium, a national effort on clinical cancer genomics. I am currently affiliated with the Centre for Cancer Cell Reprogramming (CanCell).</description>
     </item>
     
   </channel>

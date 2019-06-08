@@ -8,12 +8,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 library(PubMedWordcloud)
 author <- "nakken s"
-pmid <- getPMIDs(author = author, dFrom = 2007, dTo = 2018, n = 200)
+pmid <- getPMIDs(author = author, dFrom = 2007, dTo = 2019, n = 200)
 abstracts <- getAbstracts(pmid)
+abstracts <- abstracts[-21]
 words <- cleanAbstracts(abstracts)
 
-words <- dplyr::filter(words, word != 'developed' & word != 'high' & word != 'patient' & word != 'associated' & word != 'identified' & word != 'found' & word != 'performed' & word != 'potential' & word != 'including' & word != 'results' & word != 'developed' & word != 'available' & word != 'compared' & word != 'can' & word != 'may' & word != 'study' & word != 'associated' & word != 'one' & word != 'two' & word != 'first' & word != 'however' & word != 'used' & word != 'analyzed' & word != 'patients' & word != 'years' & word != 'present' & word != 'subsequent' & word != 'age' & word != 'whether' & word != 'use')
-words400 <- words[1:400, ]
+words <- dplyr::filter(words, !stringr::str_detect(word,"^(well|will|interpret|data|using|detect|target|function|large|also|show|recent|different|low|likely|information|number|peer|iih|last|indicate|tested|context|series|studies|observ|across|novel|potential|character|negative|acessi|related|estimate|sample|provide|explain|without|interval|region|point|analys|analyz|present|findings|includ|subseq|respectiv|selecte|unknown|cases|impact|method|use|sites|used|result|avail|first|one|study|multiple|however|predict|despite|identifi|associa|within|found|perform|comprehens|develop|review|affect|provide|high|related|potential|thus|new|particular|controls|compare|years|age|may|set|accessi|addition)"))
 
 ```
 
@@ -40,5 +40,5 @@ I supervise MSc students at the [Department of Informatics, University of Oslo](
 A wordcloud of papers I have co-authored:
 </p>
 ```{r publication_word_cloud, echo = F}
-plotWordCloud(words400[], rot.per = 0, scale = c(5,0.3))
+plotWordCloud(words[], rot.per = 0, scale = c(5,0.3))
 ```
