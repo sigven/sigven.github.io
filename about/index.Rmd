@@ -14,6 +14,7 @@ abstracts <- abstracts[-21]
 words <- cleanAbstracts(abstracts)
 
 words <- dplyr::filter(words, !stringr::str_detect(word,"^(well|will|interpret|data|using|detect|target|function|large|also|show|recent|different|low|likely|information|number|peer|iih|last|indicate|tested|context|series|studies|observ|across|novel|potential|character|negative|acessi|related|estimate|sample|provide|explain|without|interval|region|point|analys|analyz|present|findings|includ|subseq|respectiv|selecte|unknown|cases|impact|method|use|sites|used|result|avail|first|one|study|multiple|however|predict|despite|identifi|associa|within|found|perform|comprehens|develop|review|affect|provide|high|related|potential|thus|new|particular|controls|compare|years|age|may|set|accessi|addition)"))
+words <- head(words,120)
 
 ```
 
