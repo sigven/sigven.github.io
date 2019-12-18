@@ -7,15 +7,37 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 
 library(PubMedWordcloud)
+library(magrittr)
 author <- "nakken s"
 pmid <- getPMIDs(author = author, dFrom = 2007, dTo = 2020, n = 200)
 pmid <- c(31209238,pmid)
+pmid <- pmid[pmid != "23054375"]
 abstracts <- getAbstracts(pmid)
-abstracts <- abstracts[-22]
-words <- cleanAbstracts(abstracts)
 
-words <- dplyr::filter(words, !stringr::str_detect(word,"^(well|will|interpret|data|using|detect|target|function|large|also|show|recent|different|low|likely|information|number|peer|iih|last|indicate|tested|context|series|studies|observ|across|novel|potential|character|negative|acessi|related|estimate|sample|provide|explain|without|interval|region|point|analys|analyz|present|findings|includ|subseq|respectiv|selecte|unknown|cases|impact|method|use|sites|used|result|avail|first|one|study|multiple|however|predict|despite|identifi|associa|within|found|perform|comprehens|develop|review|affect|provide|high|related|potential|thus|new|particular|controls|compare|years|age|may|set|accessi|addition)"))
-words <- head(words,120)
+words <- cleanAbstracts(abstracts) %>%
+  dplyr::mutate(word = stringr::str_trim(word))
+
+words <- dplyr::filter(words, !stringr::str_detect(word,"^(well|will|interpret|data|using|detect|target|function|large|also|show|recent|different|low|likely|information|number|peer|iih|last|indicate|tested|context|series|studies|observ|across|novel|potential|character|negative|acessi|related|estimate|sample|provide|explain|without|interval|region|point|analys|analyz|present|findings|includ|subseq|respectiv|selecte|unknown|cases|impact|method|use|sites|used|result|avail|first|one|study|multiple|however|predict|despite|identifi|associa|within|found|perform|comprehens|develop|review|affect|finnish|whether|since|can|two|cell|previous|risks|previously|prospectively|time|crude|p|cause|caused|limited|among|followed|significantly|identified|observed|including|developed|compared|available|performed|significant|combinations|lines|provide|high|related|potential|thus|new|particular|controls|compare|years|age|may|set|accessi|addition|lower|analyzed|interpretation|results|lower|higher|reported|methods|predicted|detected|associated|cancers|comprehensive|patient|included|authors|affecting|respectively|gene|variant|subsequent|stage)$"))
+words <- head(words,100) %>%
+  dplyr::mutate(word = stringr::str_replace_all(word,"^brca$|brca$","BRCA")) %>%
+  dplyr::mutate(word = stringr::str_replace(word,"^crc$","CRC")) %>%
+  dplyr::mutate(word = stringr::str_replace(word,"^atm$","ATM")) %>%
+  dplyr::mutate(word = stringr::str_replace(word,"^braf$","BRAF")) %>%
+  dplyr::mutate(word = stringr::str_replace_all(word,"^mlh$|mlh$","MLH")) %>%
+  dplyr::mutate(word = stringr::str_replace(word,"abcb","ABCB")) %>%
+  dplyr::mutate(word = stringr::str_replace(word,"vus","VUS")) %>%
+  dplyr::mutate(word = stringr::str_replace(word,"snps","SNPs")) %>%
+  dplyr::mutate(word = stringr::str_replace(word,"fto","FTO")) %>%
+  dplyr::mutate(word = stringr::str_replace(word,"tle","TLE")) %>%
+  dplyr::mutate(word = stringr::str_replace(word,"rna","RNA")) %>%
+  dplyr::mutate(word = stringr::str_replace(word,"check","CHEK")) %>%
+  dplyr::mutate(word = stringr::str_replace(word,"^mmr$|mmr$","MMR")) %>%
+  dplyr::mutate(word = stringr::str_replace(word,"^msh$|msh$","MSH")) %>%
+  dplyr::mutate(word = stringr::str_replace(word,"^aqp$|aqp$","AQP")) %>%
+  dplyr::mutate(word = stringr::str_replace(word,"^kcnj$|kcnj$","KCNJ")) %>%
+  dplyr::mutate(word = stringr::str_replace_all(word,"^path","path_")) %>%
+  dplyr::mutate(word = stringr::str_replace(word,"path_ogenic","pathogenic")) %>%
+  dplyr::mutate(word = stringr::str_replace(word,"^dna$","DNA"))
 
 ```
 
