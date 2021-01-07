@@ -16,11 +16,9 @@ a:visited,
 a:link
 {
     text-decoration: none;
-
     color: #966;
-    #color: #526d7a;
+    /*color: #526d7a;*/
 }
-
 body
 {
     font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
@@ -32,9 +30,8 @@ body
     min-height: 100%;
     margin: 0;
 
-    background-color: #fcfcfc;
-    overflow: auto;
-    overflow-x: hidden;
+    /*background-color: #fcfcfc;*/
+    background-color: #fffff;
 }
 html
 {
@@ -43,6 +40,10 @@ html
     height: 100%;
     min-height: 100%;
     margin: 0;
+}
+li
+{
+    text-align: left;
 }
 .author
 {
@@ -68,8 +69,6 @@ html
 
     max-width: 680px;
     padding: 0 15px;
-    overflow: auto;
-    overflow-x: hidden;
 }
 .content
 {
@@ -92,9 +91,9 @@ div.content
 }
 .description
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 200;
-    color: #bbb;
+    color: #8b8b8b;
 }
 .error
 {
@@ -106,7 +105,7 @@ div.content
 {
     font-size: 80px;
 
-    color: #bbb;
+    color: #8b8b8b;
 }
 .error p
 {
@@ -127,7 +126,7 @@ div.content
 {
     margin-top: 10px;
 
-    color: #bbb;
+    color: #8b8b8b;
 }
 .header
 {
@@ -146,8 +145,8 @@ div.content
 }
 .intro
 {
-    font-family: 'Roboto Slab', serif;
-    font-weight: 200;
+    font-family: 'Lato', serif;
+    font-weight: 350;
     color: #777;
 }
 h3.intro
@@ -203,7 +202,7 @@ h3.intro
     font-size: 12px;
     font-weight: 200;
 
-    color: #bbb;
+    color: #8b8b8b;
 }
 a.meta
 {
@@ -215,7 +214,7 @@ h6.meta
     font-size: 12px;
     font-weight: 200;
 
-    color: #bbb;
+    color: #8b8b8b;
 }
 section.meta {
     margin-top:
@@ -227,8 +226,8 @@ section.meta {
     font-weight: 300;
 }
 .social {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 .social,
 .social a
@@ -260,4 +259,9 @@ header.title
 
         margin-top: 30px;
     }
+}
+pre > code {
+    white-space: pre;
+    word-wrap: initial;
+    word-break: initial;
 }

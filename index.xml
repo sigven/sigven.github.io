@@ -1,32 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sigve nakken</title>
-    <link>/</link>
-    <description>Recent content on sigve nakken</description>
+    <title>Sigve Nakken</title>
+    <link>https://sigven.github.io/</link>
+    <description>Recent content on Sigve Nakken</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>CodeRag</title>
-      <link>/coderag/</link>
-      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
-      
-      <guid>/coderag/</guid>
-      <description>Notes: This article originally appeared in CodeRag.
-Code/Rag has always been more than just another online tech blog. We strive to be part of the tech community—serving an essential, fundamental look at what’s going on in the valley. It’s why our tagline is “Know Your Code.” We think a tech news publication should know the basics. Be the source. Get down to brass tacks. We can do that because we’re part of the very ecosystem we’re reporting on.</description>
-    </item>
-    
+    <language>en-US</language><atom:link href="https://sigven.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>https://sigven.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://sigven.github.io/about/</guid>
       <description>I am a research scientist working in Eivind Hovig’s group at the Institute for Cancer Research in Oslo, Norway. Most of my activities involve cancer data science, i.e. analysis of data from high-throughput molecular profiling of tumor samples. During the last years, I have been part of the Norwegian Cancer Genomics Consortium, a national effort on clinical cancer genomics. I am currently affiliated with the Centre for Cancer Cell Reprogramming (CanCell).</description>
     </item>
     
