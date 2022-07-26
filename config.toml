@@ -108,8 +108,8 @@ DefaultContentLanguage           = "en"                    # Default language fo
         languageCode     = "en-us"
         contentDir       = "content/en"
         weight           = 0
-        title            = "Introduction"
+        title            = "Sigve Nakken"
         [languages.en.params]
-            description  = "Website Description"   # Max 160 characters show in search results
-            # footerText   = ""                      # Text to override default footer text (markdown allowed)
+            description  = "Sigve,Nakken,Sigve Nakken,precision medicine,oncology, bioinformatics,computational biology,cancer genomics,clinical bioinformatics,data science,precision cancer medicine"   # Max 160 characters show in search results
+            footerText   = ""                      # Text to override default footer text (markdown allowed)
 
