@@ -12,7 +12,7 @@ I develop computational interpretation frameworks and analyze data from high-thr
    * _Data integration for cancer systems biology_
       * Gene set interpretation in high-throughput cancer biology with [oncoEnrichR](https://sigven.github.io/oncoEnrichR)
    * _Computational modeling of drug response in cancer_
-   * _Natural language processing (NLP) of clinical trials_
+   * _Natural language processing (NLP) of clinical trial descriptions_
    * _Hereditary cancers - risk assessment and variant interpretation_
       * [Cancer Predisposition Sequencing Reporter (CPSR)](https://sigven.github.io/cpsr)
       * [Risk assessment in Lynch Syndrome](http://lscarisk.org/)
