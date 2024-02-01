@@ -12,7 +12,7 @@ I try to make all tools I develop available and documented through <a href="http
 <h5>Personal Cancer Genome Reporter (PCGR)</h5>
 
 <a href="https://sigven.github.io/pcgr/"><img src="https://github.com/sigven/pcgr/raw/master/pcgrr/man/figures/logo.png" align="right" height="88.5" width="75"/></a>
-We have developed the <a href="https://github.com/sigven/pcgr/" target = "_blank">Personal Cancer Genome Reporter (PCGR)</a>, a stand-alone software package for translation of individual tumor genomes for precision cancer medicine. Through the integration of a comprehensive set of <a href="https://sigven.github.io/pcgr/articles/annotation_resources.html" target = "_blank">knowledge resources</a> related to tumor biology and therapeutic biomarkers, PCGR generates a comprehensive variant report that acts as decision support for identification of novel treatment targets and strategies.
+We have developed the <a href="https://github.com/sigven/pcgr/" target = "_blank">Personal Cancer Genome Reporter (PCGR)</a>, a stand-alone software package for translation of individual tumor genomes for precision cancer medicine. Through the integration of a comprehensive set of <a href="https://rpubs.com/sigven/pcgrbundle" target = "_blank">knowledge resources</a> related to tumor biology and therapeutic biomarkers, PCGR generates a comprehensive variant report that acts as decision support for identification of novel treatment targets and strategies.
 
 <h5>Cancer Predisposition Sequencing Reporter (CPSR)</h5>
 
