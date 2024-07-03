@@ -11,12 +11,12 @@ I try to make all tools I develop available and documented through <a href="http
 
 <h5>Personal Cancer Genome Reporter (PCGR)</h5>
 
-<a href="https://sigven.github.io/pcgr/"><img src="https://github.com/sigven/pcgr/raw/master/pcgrr/man/figures/logo.png" align="right" height="88.5" width="75"/></a>
+<a href="https://sigven.github.io/pcgr/"><img src="https://github.com/sigven/pcgr/raw/main/pcgrr/man/figures/logo.png" align="right" height="88.5" width="75"/></a>
 We have developed the <a href="https://github.com/sigven/pcgr/" target = "_blank">Personal Cancer Genome Reporter (PCGR)</a>, a stand-alone software package for translation of individual tumor genomes for precision cancer medicine. Through the integration of a comprehensive set of <a href="https://rpubs.com/sigven/pcgrbundle" target = "_blank">knowledge resources</a> related to tumor biology and therapeutic biomarkers, PCGR generates a comprehensive variant report that acts as decision support for identification of novel treatment targets and strategies.
 
 <h5>Cancer Predisposition Sequencing Reporter (CPSR)</h5>
 
-<a href="https://sigven.github.io/cpsr/"><img src="https://github.com/sigven/cpsr/raw/master/man/figures/logo.png" align="right" height="88.5" width="75"/></a>
+<a href="https://sigven.github.io/cpsr/"><img src="https://github.com/sigven/cpsr/raw/main/man/figures/logo.png" align="right" height="88.5" width="75"/></a>
 The <a href="https://github.com/sigven/cpsr/" target = "_blank">Cancer Predisposition Sequencing Reporter (CPSR)</a> is a computational workflow that interprets inherited DNA variation identified from next-generation sequencing in the context of cancer predisposition and inherited cancer syndromes. Importantly, CPSR classifies the pathogenicity of DNA variants in cancer predisposition genes trough a refined set of <a href="https://sigven.github.io/cpsr/articles/variant_classification.html" target = "_blank">ACMG/AMP variant classification criteria</a>.
 
 <h5>oncoEnrichR</h5>
@@ -44,10 +44,5 @@ An ontological definition of disease enables each type of disease to be singular
 
 <a href="https://github.com/sigven/gvanno/"><img src="https://github.com/sigven/gvanno/raw/master/src/gvanno_logo.png" align="right" height="88.5" width="75"/></a>
 The generic variant annotator (<a href="https://github.com/sigven/gvanno/" target="_blank">gvanno</a>) is a software package intended for basic analysis and interpretation of human DNA variants. Variants and genes are annotated with disease-related and functional associations. Technically, the workflow is built with the Docker technology, and it can also be installed through the Singularity framework.
-
-<h5>lscarisk.org</h5>
-
-<a href="http://lscarisk.org"><img src="https://github.com/sigven/lscarisk/raw/main/PLSD_black_bg.png" align="right" height="80" width="160"/></a>
-Using data from the Prospective Lynch Syndrome Database (PLSD), we have developed an interactive web application (<a href="http://lscarisk.org" target="_blank">lscarisk.org</a>) that allows users to retrieve estimated cancer risks in carriers of mismatch repair (MMR) gene variants - by gene, age, and gender. The application has been developed through the [Shiny framework](https://shiny.posit.co/).
 
 
