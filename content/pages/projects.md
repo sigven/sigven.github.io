@@ -21,7 +21,7 @@ The <a href="https://github.com/sigven/cpsr/" target = "_blank">Cancer Predispos
 
 <h5>oncoEnrichR</h5>
 
-<a href="https://sigven.github.io/oncoEnrichR/"><img src="https://github.com/sigven/oncoEnrichR/raw/master/man/figures/logo.png" align="right" height="88.5" width="75"/></a>
+<a href="https://sigven.github.io/oncoEnrichR/"><img src="https://github.com/sigven/oncoEnrichR/raw/main/man/figures/logo.png" align="right" height="88.5" width="75"/></a>
 Genome-scale screening experiments produce long lists of candidate genes that require extensive interpretation for biological insight and prioritization for follow-up studies. Interrogating these gene lists is a time-consuming and challenging undertaking. <a href="https://github.com/sigven/oncoEnrichR/" target="_blank">oncoEnrichR</a> is a user-friendly reporting framework that portrays the cancer relevance of candidate hits in a comprehensive manner, allowing researchers to efficiently gather evidence when picking candidates for in-depth follow-up experiments. oncoEnrichR comes as an R package, but is also accessible through a <a href="https://oncotools.elixir.no/" target="_blank">web interface in Galaxy</a>.
 
 <h5>pharmOncoX</h5>
